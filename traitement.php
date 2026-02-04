@@ -1,4 +1,4 @@
-
+//Traitement du formulaire
 <?php
 // la condition if permet de vérifier si le bouton envoyer a été cliqué
 if (isset($_POST['envoyer'])) {
@@ -23,4 +23,5 @@ if (isset($_POST['envoyer'])) {
     echo "<p style='color:red;'>Accès non autorisé. Le bouton n'a pas été cliqué.</p>";
 }
 ?>
+
 
